@@ -108,8 +108,8 @@ salida.innerHTML += "<br>Precio entrada persona 3= " + persona3.precioEntrada();
 salida.innerHTML += "<br>Precio entrada persona 4= " + persona4.precioEntrada();
 salida.innerHTML += "<br>";
 salida.innerHTML +=
-   "<br>Cantidad de personas que asistieron= " +
+   "<br>R.1: Cantidad de personas que asistieron= " +
    cine.cantidadPersonasAsistieron();
-salida.innerHTML += `<br>Porcentaje de personas de la 3ra edad=${cine.porcentajePersonas3raEdad()}%`;
-salida.innerHTML += `<br>Monto Total pagado por estudiantes=$${cine.montoTotalPagadoEstuds()}`;
-salida.innerHTML += `<br>Monto Total recaudado=$${cine.montoTotalRecaudado()}`;
+salida.innerHTML += `<br>R.2: Porcentaje de personas de la 3ra edad=${cine.porcentajePersonas3raEdad()}%`;
+salida.innerHTML += `<br>R.3: Monto Total pagado por estudiantes=$${cine.montoTotalPagadoEstuds()}`;
+salida.innerHTML += `<br>R.4: Monto Total recaudado=$${cine.montoTotalRecaudado()}`;
